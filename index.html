@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request a Song | DJ JDiaz</title>
+
+  <!-- THIS CONNECTS YOUR CSS -->
+  <link rel="stylesheet" href="request.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎶 Request a Song</h1>
+
+    <form id="requestForm">
+      <input id="guestName" placeholder="Your name (optional)">
+
+      <input id="songInput" placeholder="Search for a song" required>
+      <ul id="results"></ul>
+
+      <textarea id="dedication" placeholder="Dedication (optional)"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <p class="note">One request per guest 🙌</p>
+  </div>
+
+  <!-- THIS CONNECTS YOUR JAVASCRIPT -->
+  <script src="request.js"></script>
+
+</body>
+</html>
