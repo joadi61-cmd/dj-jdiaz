@@ -1,0 +1,37 @@
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #ff0055;
+  color: white;
+  font-size: 18px;
+}
+
+#results {
+  list-style: none;
+  padding: 0;
+}
+
+#results li {
+  background: #222;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
